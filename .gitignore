@@ -1,0 +1,26 @@
+# Packaged skill artifacts
+*.skill
+*.zip
+
+# Local evaluation outputs
+*-workspace/
+iteration-*/
+feedback.json
+benchmark.json
+benchmark.md
+timing.json
+grading.json
+
+# Private or temporary data
+.env
+*.local
+private/
+secrets/
+weixin-data/
+weread-data/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
