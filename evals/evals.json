@@ -1,0 +1,35 @@
+{
+  "skill_name": "blade-reading",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我是大一学生，想提升判断力、商业理解和表达能力，也想提升表达和自媒体能力。不要鸡汤，不要堆名著，帮我做一份 30 天阅读计划。",
+      "expected_output": "Should ask for or infer user context, produce a small sharp plan with at most 3 main books, classify books by blade-reading categories, and avoid generic bestseller-style recommendations.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我筛这 20 本书：原则、纳瓦尔宝典、穷查理宝典、鞋狗、乔布斯传、滚雪球、置身事内、经济学原理、思考快与慢、深度工作、刻意练习、认知觉醒、被讨厌的勇气、活着、局外人、悉达多、沉思录、影响力、娱乐至死、金字塔原理。哪些精读，哪些 AI 总结即可？",
+      "expected_output": "Should score and classify each candidate, clearly separate精读/慢读/选读/AI 总结即可/暂不优先, and explain不可压缩价值 rather than using fame or popularity as the reason.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想读商业书，推荐几本。",
+      "expected_output": "Should not immediately list generic business books. It should ask clarifying questions about the user's actual business problem, stage, interests, and desired reading depth.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "我最近想学 AI 工具、Prompt、剪映和自媒体运营，有没有书单？",
+      "expected_output": "Should downgrade fast-changing tool tutorials, recommend AI plus practice for operations, and only keep long-lived framework or judgment-oriented books if relevant.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "下面是我的待读清单，请帮我整理成主分类和副标签，并说明哪些书暂不优先：活着、百年孤独、卡拉马佐夫兄弟、原则、认知觉醒、从 0 到 1、创新者的窘境、邓小平时代、乡土中国、金钱心理学、Python 编程快速上手。",
+      "expected_output": "Should use fixed categories, include main category and secondary tags, avoid overloading the plan, and explicitly identify AI-summary or not-priority candidates.",
+      "files": []
+    }
+  ]
+}
