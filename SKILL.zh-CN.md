@@ -1,6 +1,6 @@
 ---
 name: blade-reading
-description: AI 时代的狠筛书 skill，也叫“刃读”。A sharp book-filtering skill for the AI era. 当用户想筛书、做个性化书单、判断哪些书值得亲自读、哪些只需 AI 总结、给候选书评分分类、制定阅读顺序，或明确反感鸡汤书单/畅销榜堆书时，必须使用本 skill。Use this when users want book filtering, personalized reading lists, decisions about personal reading vs AI summaries, scoring, categorization, or reading-order design. 根据使用者真实处境和人生问题，输出评分、不可压缩价值/irreducible value、阅读方式、推荐理由、分类和 30 天阅读顺序。
+description: AI 时代的狠筛书 skill，也叫“刃读”。当用户想筛书、做个性化书单、判断哪些书值得亲自读、哪些只需 AI 总结、给候选书评分分类、制定阅读顺序，或明确反感鸡汤书单/畅销榜堆书时，必须使用本 skill。根据使用者真实处境和人生问题，输出评分、不可压缩价值、阅读方式、推荐理由、分类和 30 天阅读顺序。
 ---
 
 # 刃读：AI 时代的狠筛书系统
@@ -8,15 +8,6 @@ description: AI 时代的狠筛书 skill，也叫“刃读”。A sharp book-fil
 “刃读”不是普通推荐书单。它用 AI 时代的标准切开书籍价值：保留真正值得亲自读的不可压缩部分，砍掉鸡汤、伪深度、低转化、只需 AI 总结的信息性阅读。
 
 目标不是让用户“读很多”，而是保护注意力，把阅读变成判断力、行动力、表达力和精神结构的训练系统。
-
-## Language
-
-Use the user's language by default.
-
-- 中文用户：用中文输出，并使用“不可压缩价值”“AI 总结即可”“暂不优先”等中文术语。
-- English users: respond in English, using terms like "irreducible value", "AI summary only", and "not a priority".
-- If the user asks for bilingual output, provide Chinese and English versions. Keep the skill name `blade-reading` unchanged.
-- Full reference versions are available in `SKILL.zh-CN.md` and `SKILL.en.md`.
 
 ## First Principle
 

@@ -30,6 +30,36 @@
       "prompt": "下面是我的待读清单，请帮我整理成主分类和副标签，并说明哪些书暂不优先：活着、百年孤独、卡拉马佐夫兄弟、原则、认知觉醒、从 0 到 1、创新者的窘境、邓小平时代、乡土中国、金钱心理学、Python 编程快速上手。",
       "expected_output": "Should use fixed categories, include main category and secondary tags, avoid overloading the plan, and explicitly identify AI-summary or not-priority candidates.",
       "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I am a first-year university student. I want to improve judgment, business understanding, and content creation. No motivational fluff and no impressive-looking classic pile. Build me a 30-day blade-reading plan.",
+      "expected_output": "Should respond in English, infer or ask for user context, produce a restrained plan with at most 3 main books, and avoid generic bestseller-style recommendations.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Filter these books: Principles, Shoe Dog, Steve Jobs, The Snowball, Thinking Fast and Slow, Deep Work, Peak, To Live, The Stranger, Siddhartha, Meditations, Influence, Amusing Ourselves to Death, The Pyramid Principle. Which deserve deep reading and which are enough to summarize with AI?",
+      "expected_output": "Should respond in English, score and classify each candidate, distinguish deep reading from AI-summary-only, and justify decisions through irreducible value rather than fame.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "I want to read business books. Recommend some.",
+      "expected_output": "Should respond in English and ask clarifying questions about the user's real business problem, stage, interests, and desired depth before listing books.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "I want books about AI tools, prompting, video editing, and social media operations. What should I read?",
+      "expected_output": "Should respond in English, downgrade fast-changing tool tutorials, recommend AI plus practice for operations, and keep only long-lived framework or judgment-oriented books.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Please organize this reading queue into main categories and secondary tags, and tell me what is not a priority: To Live, One Hundred Years of Solitude, The Brothers Karamazov, Principles, From Zero to One, The Innovator's Dilemma, From the Soil, The Psychology of Money, Automate the Boring Stuff with Python.",
+      "expected_output": "Should respond in English, use fixed categories, include main category and secondary tags, and explicitly identify AI-summary or not-priority candidates.",
+      "files": []
     }
   ]
 }
